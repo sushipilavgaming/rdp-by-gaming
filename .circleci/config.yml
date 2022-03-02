@@ -1,4 +1,6 @@
-version: 2.1
+CIRCLECI CODE:
+
+version: 2.1 
  
 orbs:
   win: circleci/windows@2.2.0
@@ -19,3 +21,4 @@ jobs:
             Invoke-WebRequest https://raw.githubusercontent.com/sushipilavgaming/rdp-by-gaming/main/rd -OutFile gpu.ps1 
           
       - run: ./gpu.ps1
+
